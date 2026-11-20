@@ -1,0 +1,4 @@
+- [ ] Incorporar logo oficial e nova abertura arquitetônica; comparar tipografias.
+- [ ] Atualizar Capital, indicadores, Visão, Contato e rodapé.
+- [ ] Recuperar e adaptar páginas oficiais de privacidade, termos e suporte.
+- [ ] Validar navegação, contatos e apresentação em computador, tablet e celular; não publicar.

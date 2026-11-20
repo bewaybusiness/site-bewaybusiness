@@ -125,7 +125,7 @@
 @layer base {
   html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
   body { font-family: var(--font-sans); font-weight: 400; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-  h1, h2, h3 { font-weight: 300; letter-spacing: -0.02em; }
+  h1, h2, h3 { font-weight: 300; letter-spacing: 0; }
   ::selection { background: var(--signal); color: var(--ink); }
 }
 
@@ -153,3 +153,18 @@
 }
 @keyframes reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { animation: none; } }
+
+.hero { position: relative; background: var(--ink); color: var(--ink-foreground); }
+.hero-text { padding: 9rem 1.5rem 4rem; }
+.hero-photo { width: 100%; height: 28rem; object-fit: cover; }
+@media (width >= 48rem) {
+  .hero { height: min(92svh, 60rem); min-height: 43rem; display: grid; grid-template-columns: 1fr 1fr; }
+  .hero-text { align-self: center; padding: 7rem 3rem 5rem max(3rem, calc((100vw - 80rem) / 2 + 3rem)); }
+  .hero-photo { height: 100%; min-height: 0; }
+}
+.legal-content { font-size: 1.125rem; line-height: 1.8; overflow-wrap: anywhere; }
+.legal-content h2 { margin-top: 3rem; margin-bottom: 1rem; font-size: 1.6rem; line-height: 1.35; }
+.legal-content p { margin-block: 1rem; }
+.legal-content ul { padding-left: 1.25rem; list-style: disc; margin-block: 1rem; }
+.legal-content li { margin-block: .5rem; }
+.legal-content a { text-decoration: underline; text-underline-offset: .25em; }

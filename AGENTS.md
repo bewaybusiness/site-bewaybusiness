@@ -29,3 +29,5 @@ use the editor.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
 - Site copy, contacts and evidence indicators live in src/content/site.ts; indicators render only when the array has validated entries (no placeholders).
+- Shared legal-page rendering uses structured content extracted from the official source; preserve every source section and isolate documented adaptations so legal changes remain auditable.
+- Header and footer reuse the official transparent logo asset, and internal legal pages reuse the shared editorial shell to keep navigation and identity consistent.
