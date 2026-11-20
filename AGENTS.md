@@ -28,3 +28,4 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+- Site copy, contacts and evidence indicators live in src/content/site.ts; indicators render only when the array has validated entries (no placeholders).
