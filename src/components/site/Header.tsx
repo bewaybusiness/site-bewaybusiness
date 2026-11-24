@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { site } from "@/content/site";
+import { Link } from "@tanstack/react-router";
+import { Logo } from "./Logo";
 
 const nav = [
-  { href: "#a-beway", label: "A BEWAY" },
-  { href: "#contato", label: "Contato" },
+  { href: "/#a-beway", label: "A BEWAY" },
+  { href: "/#contato", label: "Contato" },
 ];
 
 export function Header() {
@@ -19,17 +20,14 @@ export function Header() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        scrolled || open ? "border-b border-border bg-background/95 backdrop-blur" : "bg-transparent"
+      className={`fixed inset-x-0 top-0 z-50 text-ink-foreground transition-colors duration-300 ${
+        scrolled || open ? "border-b border-ink-border bg-ink/95 backdrop-blur" : "bg-transparent"
       }`}
     >
       <div className="container-site flex h-18 items-center justify-between">
-        <a href="#topo" className="flex items-baseline gap-3" aria-label="BEWAY — voltar ao topo" onClick={() => setOpen(false)}>
-          <span className="text-2xl font-light tracking-[0.18em]">{site.name}</span>
-          <span className="hidden text-[0.65rem] font-medium uppercase tracking-[0.22em] text-muted-foreground sm:inline">
-            {site.signature}
-          </span>
-        </a>
+        <Link to="/" aria-label="BEWAY — página inicial" onClick={() => setOpen(false)}>
+          <Logo className="h-6 w-auto md:h-7" />
+        </Link>
         <nav aria-label="Principal" className="hidden md:block">
           <ul className="flex gap-10">
             {nav.map((n) => (
@@ -53,7 +51,7 @@ export function Header() {
         <nav id="menu-mobile" aria-label="Principal" className="container-site pb-6 md:hidden">
           <ul className="flex flex-col">
             {nav.map((n) => (
-              <li key={n.href} className="border-t border-border">
+              <li key={n.href} className="border-t border-ink-border">
                 <a href={n.href} className="eyebrow block py-4" onClick={() => setOpen(false)}>{n.label}</a>
               </li>
             ))}

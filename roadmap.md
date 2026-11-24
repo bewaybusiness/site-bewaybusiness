@@ -1,4 +1,4 @@
-- [ ] Incorporar logo oficial e nova abertura arquitetônica; comparar tipografias.
-- [ ] Atualizar Capital, indicadores, Visão, Contato e rodapé.
-- [ ] Recuperar e adaptar páginas oficiais de privacidade, termos e suporte.
-- [ ] Validar navegação, contatos e apresentação em computador, tablet e celular; não publicar.
+- [x] Logo oficial, abertura escura dividida, tipografia Assistant.
+- [x] Atuação, indicadores, Visão, Contato e rodapé.
+- [x] Páginas de privacidade, termos e suporte com textos oficiais.
+- [ ] Revisão humana dos textos legais (menções a Wix/Hotmart) antes de publicar.

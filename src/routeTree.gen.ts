@@ -10,33 +10,69 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ContatoSuporteRouteImport } from './routes/contato-suporte'
+import { Route as PrivacidadeECookiesRouteImport } from './routes/privacidade-e-cookies'
+import { Route as TermosDeUsoRouteImport } from './routes/termos-de-uso'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ContatoSuporteRoute = ContatoSuporteRouteImport.update({
+  id: '/contato-suporte',
+  path: '/contato-suporte',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacidadeECookiesRoute = PrivacidadeECookiesRouteImport.update({
+  id: '/privacidade-e-cookies',
+  path: '/privacidade-e-cookies',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TermosDeUsoRoute = TermosDeUsoRouteImport.update({
+  id: '/termos-de-uso',
+  path: '/termos-de-uso',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/contato-suporte': typeof ContatoSuporteRoute
+  '/privacidade-e-cookies': typeof PrivacidadeECookiesRoute
+  '/termos-de-uso': typeof TermosDeUsoRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/contato-suporte': typeof ContatoSuporteRoute
+  '/privacidade-e-cookies': typeof PrivacidadeECookiesRoute
+  '/termos-de-uso': typeof TermosDeUsoRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/contato-suporte': typeof ContatoSuporteRoute
+  '/privacidade-e-cookies': typeof PrivacidadeECookiesRoute
+  '/termos-de-uso': typeof TermosDeUsoRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    '/' | '/contato-suporte' | '/privacidade-e-cookies' | '/termos-de-uso'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/contato-suporte' | '/privacidade-e-cookies' | '/termos-de-uso'
+  id:
+    | '__root__'
+    | '/'
+    | '/contato-suporte'
+    | '/privacidade-e-cookies'
+    | '/termos-de-uso'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ContatoSuporteRoute: typeof ContatoSuporteRoute
+  PrivacidadeECookiesRoute: typeof PrivacidadeECookiesRoute
+  TermosDeUsoRoute: typeof TermosDeUsoRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +84,35 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contato-suporte': {
+      id: '/contato-suporte'
+      path: '/contato-suporte'
+      fullPath: '/contato-suporte'
+      preLoaderRoute: typeof ContatoSuporteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacidade-e-cookies': {
+      id: '/privacidade-e-cookies'
+      path: '/privacidade-e-cookies'
+      fullPath: '/privacidade-e-cookies'
+      preLoaderRoute: typeof PrivacidadeECookiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/termos-de-uso': {
+      id: '/termos-de-uso'
+      path: '/termos-de-uso'
+      fullPath: '/termos-de-uso'
+      preLoaderRoute: typeof TermosDeUsoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ContatoSuporteRoute: ContatoSuporteRoute,
+  PrivacidadeECookiesRoute: PrivacidadeECookiesRoute,
+  TermosDeUsoRoute: TermosDeUsoRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

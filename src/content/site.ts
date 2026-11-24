@@ -38,8 +38,8 @@ export const indicators: Indicator[] = [
 ];
 
 export const pillars = [
-  { t: "Estratégia", d: "Visão empresarial, análise e aconselhamento para decisões mais assertivas." },
-  { t: "Capital", d: "Estruturação e viabilização de recursos para oportunidades lucrativas" },
+  { t: "Estratégia", d: "Visão gerencial, análise e aconselhamento para decisões mais assertivas." },
+  { t: "Capital", d: "Estruturação e viabilização de recursos para oportunidades de crescimento." },
   { t: "Crescimento", d: "Direção para iniciativas com potencial de gerar valor e ampliar resultados." },
 ];
 
