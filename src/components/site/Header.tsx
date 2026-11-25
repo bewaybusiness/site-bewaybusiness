@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Logo } from "./Logo";
 
-const nav = [
+const nav: { href: string; label: string; external?: boolean }[] = [
   { href: "/#a-beway", label: "A BEWAY" },
-  { href: "/#contato", label: "Contato" },
+  { href: "https://wa.me/5521979991015", label: "Converse com a BEWAY", external: true },
 ];
 
 export function Header() {
@@ -32,7 +32,7 @@ export function Header() {
           <ul className="flex gap-10">
             {nav.map((n) => (
               <li key={n.href}>
-                <a href={n.href} className="eyebrow link-quiet">{n.label}</a>
+                <a href={n.href} className="eyebrow link-quiet" {...(n.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>{n.label}</a>
               </li>
             ))}
           </ul>
@@ -52,7 +52,7 @@ export function Header() {
           <ul className="flex flex-col">
             {nav.map((n) => (
               <li key={n.href} className="border-t border-ink-border">
-                <a href={n.href} className="eyebrow block py-4" onClick={() => setOpen(false)}>{n.label}</a>
+                <a href={n.href} className="eyebrow block py-4" {...(n.external ? { target: "_blank", rel: "noopener noreferrer" } : {})} onClick={() => setOpen(false)}>{n.label}</a>
               </li>
             ))}
           </ul>

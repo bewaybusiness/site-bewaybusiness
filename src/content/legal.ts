@@ -89,11 +89,11 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Quando um produto digital é adquirido por meio da Hotmart, a BEWAY pode receber ou consultar informações necessárias para identificar a compra e prestar suporte, como nome, e-mail, produto adquirido, status da compra e informações operacionais disponibilizadas pela plataforma."
+     "x": "Quando um produto, conteúdo ou serviço comercial da BEWAY é adquirido, a BEWAY pode receber ou consultar informações necessárias para identificar a contratação e prestar suporte, como nome, e-mail, produto adquirido, status do pagamento e informações operacionais relacionadas."
     },
     {
      "t": "p",
-     "x": "O processamento financeiro é realizado pela Hotmart. A BEWAY não solicita nem armazena diretamente os dados completos do cartão utilizado no checkout."
+     "x": "O processamento financeiro pode ser realizado por fornecedores especializados em pagamentos. A BEWAY não solicita nem armazena diretamente os dados completos do cartão utilizado no pagamento."
     }
    ]
   },
@@ -257,7 +257,7 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "A BEWAY utiliza fornecedores tecnológicos para operar o site, processar compras, entregar produtos, medir resultados e prestar atendimento. O compartilhamento é limitado ao necessário para a finalidade correspondente e pode envolver o provedor de hospedagem do site, a Hotmart, o Google e a Meta, conforme as ferramentas efetivamente utilizadas em cada momento."
+     "x": "A BEWAY utiliza fornecedores tecnológicos para operar o site, processar compras, entregar produtos, medir resultados e prestar atendimento. O compartilhamento é limitado ao necessário para a finalidade correspondente e pode envolver o provedor de hospedagem do site, fornecedores de pagamento e disponibilização de produtos, o Google e a Meta, conforme as ferramentas efetivamente utilizadas em cada momento."
     },
     {
      "t": "p",
@@ -279,11 +279,11 @@ export const privacy: LegalDoc = {
    ]
   },
   {
-   "h": "11.2 Hotmart",
+   "h": "11.2 Pagamento e disponibilização de produtos",
    "b": [
     {
      "t": "p",
-     "x": "Utilizada para checkout, processamento da compra, confirmação de pagamento, disponibilização e suporte operacional relacionado aos produtos vendidos por essa plataforma."
+     "x": "Fornecedores especializados podem ser utilizados para processamento de pagamentos, confirmação da contratação, disponibilização de acesso e suporte operacional relacionado aos produtos, materiais e serviços comerciais da BEWAY."
     }
    ]
   },
@@ -407,6 +407,7 @@ export const privacy: LegalDoc = {
   }
  ]
 };
+export const supportAdaptations = ["Hotmart substituída por canais da BEWAY e fornecedor de pagamentos genérico"];
 export const terms: LegalDoc = {
  "title": "Termos de Uso",
  "intro": [
@@ -481,15 +482,15 @@ export const terms: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Quando indicado na página do produto, a compra será concluída em ambiente da Hotmart, que realizará o processamento do pagamento e a disponibilização do produto ou do acesso correspondente."
+     "x": "Quando indicado na oferta, a contratação poderá ser concluída em ambiente de fornecedor de pagamentos, que realizará o processamento do pagamento e, conforme o caso, a disponibilização do produto ou do acesso correspondente."
     },
     {
      "t": "p",
-     "x": "O comprador é responsável por fornecer dados corretos e atualizados no checkout. A aprovação do pagamento, meios de pagamento disponíveis e procedimentos operacionais do checkout também dependem das regras e sistemas da Hotmart."
+     "x": "O comprador é responsável por fornecer dados corretos e atualizados no momento da contratação. A aprovação do pagamento, os meios de pagamento disponíveis e os procedimentos operacionais também podem depender das regras e sistemas do fornecedor de pagamentos utilizado."
     },
     {
      "t": "p",
-     "x": "A BEWAY não solicita nem armazena diretamente os dados completos do cartão utilizado no checkout da Hotmart."
+     "x": "A BEWAY não solicita nem armazena diretamente os dados completos do cartão utilizado no pagamento."
     }
    ]
   },
@@ -498,7 +499,7 @@ export const terms: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Após a confirmação da compra, o produto será disponibilizado conforme a forma informada na oferta e no ambiente da Hotmart. O comprador deve utilizar um endereço de e-mail válido e verificar também pastas de spam ou lixo eletrônico em caso de dificuldade para localizar comunicações de acesso."
+     "x": "Após a confirmação da compra, o produto será disponibilizado conforme a forma informada na oferta. O comprador deve utilizar um endereço de e-mail válido e verificar também pastas de spam ou lixo eletrônico em caso de dificuldade para localizar comunicações de acesso."
     },
     {
      "t": "p",
@@ -524,11 +525,11 @@ export const terms: LegalDoc = {
     },
     {
      "t": "p",
-     "x": "Outros produtos poderão possuir prazo de garantia igual ou mais favorável ao consumidor, conforme indicado na oferta e no checkout. Nenhuma condição comercial será interpretada para reduzir direitos obrigatórios assegurados pela legislação."
+     "x": "Outros produtos poderão possuir prazo de garantia igual ou mais favorável ao consumidor, conforme indicado na oferta. Nenhuma condição comercial será interpretada para reduzir direitos obrigatórios assegurados pela legislação."
     },
     {
      "t": "p",
-     "x": "Solicitações de reembolso poderão ser realizadas pelos mecanismos disponibilizados pela Hotmart ou pelos canais de suporte da BEWAY, conforme o caso."
+     "x": "Solicitações de reembolso poderão ser realizadas pelos canais de suporte da BEWAY ou pelos mecanismos disponibilizados pelo fornecedor de pagamentos utilizado, conforme o caso."
     }
    ]
   },
@@ -675,7 +676,7 @@ export const terms: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Algumas etapas da experiência podem ocorrer em plataformas de terceiros, como provedores de hospedagem e a Hotmart. A disponibilidade e certas funcionalidades dessas plataformas dependem dos respectivos fornecedores."
+     "x": "Algumas etapas da experiência podem ocorrer em plataformas de terceiros, como provedores de hospedagem e fornecedores de pagamento. A disponibilidade e certas funcionalidades dessas plataformas dependem dos respectivos fornecedores."
     },
     {
      "t": "p",
@@ -821,7 +822,7 @@ export const support: LegalDoc = {
     },
     {
      "t": "p",
-     "x": "Algumas questões de pagamento, aprovação, reembolso ou acesso também podem depender de procedimentos da Hotmart."
+     "x": "Algumas questões de pagamento, aprovação, reembolso ou acesso também podem depender de procedimentos do fornecedor de pagamentos utilizado."
     }
    ]
   },
@@ -859,7 +860,7 @@ export const support: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Informe o e-mail utilizado na compra e o nome do produto. Antes de solicitar suporte, verifique também a caixa de spam ou lixo eletrônico do endereço usado no checkout."
+     "x": "Informe o e-mail utilizado na compra e o nome do produto. Antes de solicitar suporte, verifique também a caixa de spam ou lixo eletrônico do endereço informado na compra."
     }
    ]
   },
@@ -868,11 +869,11 @@ export const support: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Quando a compra tiver sido processada pela Hotmart, o pedido poderá ser iniciado pelos mecanismos disponibilizados pela plataforma ou com auxílio do suporte da BEWAY, conforme o caso."
+     "x": "O pedido poderá ser iniciado pelos canais de suporte da BEWAY ou, quando aplicável, pelos mecanismos disponibilizados pelo fornecedor de pagamentos utilizado."
     },
     {
      "t": "p",
-     "x": "Para localizar a compra, informe o e-mail utilizado no checkout e o produto adquirido. Não envie dados completos de cartão."
+     "x": "Para localizar a compra, informe o e-mail utilizado na compra e o produto adquirido. Não envie dados completos de cartão."
     }
    ]
   },
@@ -912,5 +913,5 @@ export const support: LegalDoc = {
   }
  ]
 };
-export const termsAdaptations = ["Título generalizado para Termos de Uso", "Seção 1 e 4 generalizadas para produtos digitais, conteúdos, materiais, serviços e ofertas", "Removidos nome de produto e preço antigo das seções Preço e Arrependimento", "Seção 19 sem citar Wix como plataforma atual", "Inserida cláusula Natureza Empresarial dos Aconselhamentos e Alocação de Recursos após a seção 15 e renumeração"];
-export const privacyAdaptations = ["Seções 9.2 a 9.4 e 11.3 a 11.4: GA4, Tag Manager, Meta Pixel e Google Ads descritos como possíveis, não ativos", "Seção 10: preferências de cookies descritas como recurso futuro, com gestão pelo navegador", "Seções 11 e 11.1: Wix substituído por provedor de hospedagem genérico, com estatísticas da Lovable em caráter condicional"];
+export const termsAdaptations = ["Título generalizado para Termos de Uso", "Seção 1 e 4 generalizadas para produtos digitais, conteúdos, materiais, serviços e ofertas", "Removidos nome de produto e preço antigo das seções Preço e Arrependimento", "Hotmart substituída por fornecedor de pagamentos genérico", "Seção 19 sem citar Wix como plataforma atual", "Inserida cláusula Natureza Empresarial dos Aconselhamentos e Alocação de Recursos após a seção 15 e renumeração"];
+export const privacyAdaptations = ["Seções 9.2 a 9.4 e 11.3 a 11.4: GA4, Tag Manager, Meta Pixel e Google Ads descritos como possíveis, não ativos", "Seções 4 e 11: Hotmart substituída por fornecedores de pagamento genéricos", "Seção 10: preferências de cookies descritas como recurso futuro, com gestão pelo navegador", "Seções 11 e 11.1: Wix substituído por provedor de hospedagem genérico, com estatísticas da Lovable em caráter condicional"];

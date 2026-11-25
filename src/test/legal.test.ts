@@ -40,3 +40,9 @@ describe("política sem ferramentas não configuradas", () => {
     expect(JSON.stringify(terms)).not.toContain("Wix");
   });
 });
+
+describe("sem plataforma nominal de vendas", () => {
+  it("não cita Hotmart nas três páginas legais", () => {
+    for (const d of [privacy, terms, support]) expect(JSON.stringify(d)).not.toContain("Hotmart");
+  });
+});
