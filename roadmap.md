@@ -1,4 +1,5 @@
 - [x] Logo oficial, abertura escura dividida, tipografia Assistant.
 - [x] Atuação, indicadores, Visão, Contato e rodapé.
 - [x] Páginas de privacidade, termos e suporte com textos oficiais.
-- [ ] Revisão humana dos textos legais (menções a Wix/Hotmart) antes de publicar.
+- [x] Política e termos sem ferramentas não configuradas (GA4, Pixel, Ads, Wix).
+- [ ] Revisão jurídica final e confirmação do titular (CNPJ, data de vigência, Hotmart) antes de publicar.

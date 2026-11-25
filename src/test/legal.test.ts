@@ -30,3 +30,13 @@ describe("termos e páginas legais", () => {
     ]);
   });
 });
+
+describe("política sem ferramentas não configuradas", () => {
+  it("não declara GA4, Meta Pixel, Google Ads ou Wix como ativos", () => {
+    const p = JSON.stringify(privacy);
+    expect(p).not.toMatch(/Atualmente, a BEWAY (pode )?utiliza/);
+    expect(p).not.toMatch(/A BEWAY utiliza Google Tag Manager/);
+    expect(p).not.toContain("Wix");
+    expect(JSON.stringify(terms)).not.toContain("Wix");
+  });
+});

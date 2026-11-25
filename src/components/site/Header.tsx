@@ -21,7 +21,7 @@ export function Header() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 text-ink-foreground transition-colors duration-300 ${
-        scrolled || open ? "border-b border-ink-border bg-ink/95 backdrop-blur" : "bg-transparent"
+        scrolled || open ? "border-b border-ink-border bg-ink/95 backdrop-blur" : "bg-gradient-to-b from-ink/70 to-transparent"
       }`}
     >
       <div className="container-site flex h-18 items-center justify-between">

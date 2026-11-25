@@ -217,7 +217,7 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Ajudam a compreender como visitantes encontram e utilizam as páginas, permitindo gerar estatísticas e melhorar a experiência. Atualmente, a BEWAY pode utilizar Google Analytics 4 (GA4) para essa finalidade, sujeito às configurações de consentimento aplicáveis."
+     "x": "Ajudam a compreender como visitantes encontram e utilizam as páginas, permitindo gerar estatísticas e melhorar a experiência. Ferramentas como o Google Analytics 4 (GA4) poderão ser utilizadas para essa finalidade caso venham a ser configuradas, sujeitas às configurações de consentimento aplicáveis. Na data desta versão, o site institucional não possui GA4 configurado."
     }
    ]
   },
@@ -226,7 +226,7 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Podem ser utilizados para medir campanhas, registrar conversões, formar públicos e realizar remarketing. Atualmente, a BEWAY utiliza Meta Pixel no site institucional e em páginas de produtos e pode utilizar tecnologias do Google Ads para medição de conversão e remarketing, respeitadas as preferências de consentimento aplicáveis."
+     "x": "Podem ser utilizados para medir campanhas, registrar conversões, formar públicos e realizar remarketing. Tecnologias como Meta Pixel e Google Ads poderão ser utilizadas no site institucional ou em páginas de produtos caso venham a ser configuradas, respeitadas as preferências de consentimento aplicáveis. Na data desta versão, o site institucional não possui pixels ou tags de publicidade configurados."
     }
    ]
   },
@@ -235,7 +235,7 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "A BEWAY utiliza Google Tag Manager para organizar a ativação de determinadas tags. O gerenciador de tags não substitui o consentimento: as tags não essenciais devem respeitar a escolha registrada pelo visitante."
+     "x": "A BEWAY poderá utilizar Google Tag Manager para organizar a ativação de determinadas tags, caso venha a ser configurado. O gerenciador de tags não substitui o consentimento: as tags não essenciais devem respeitar a escolha registrada pelo visitante."
     }
    ]
   },
@@ -244,7 +244,7 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Ao acessar o site, o visitante poderá aceitar todos os cookies, recusar cookies não essenciais ou configurar suas preferências por categoria. As escolhas poderão ser alteradas posteriormente pelo recurso de Preferências de Cookies disponível no site."
+     "x": "Quando o site utilizar cookies não essenciais, o visitante poderá aceitar todos os cookies, recusar cookies não essenciais ou configurar suas preferências por categoria, e as escolhas poderão ser alteradas posteriormente pelo recurso de preferências de cookies que será disponibilizado no site. Independentemente disso, o visitante pode gerenciar ou apagar cookies nas configurações do próprio navegador."
     },
     {
      "t": "p",
@@ -257,7 +257,7 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "A BEWAY utiliza fornecedores tecnológicos para operar o site, processar compras, entregar produtos, medir resultados e prestar atendimento. O compartilhamento é limitado ao necessário para a finalidade correspondente e pode envolver, atualmente, Wix, Hotmart, Google e Meta, conforme as ferramentas efetivamente utilizadas."
+     "x": "A BEWAY utiliza fornecedores tecnológicos para operar o site, processar compras, entregar produtos, medir resultados e prestar atendimento. O compartilhamento é limitado ao necessário para a finalidade correspondente e pode envolver o provedor de hospedagem do site, a Hotmart, o Google e a Meta, conforme as ferramentas efetivamente utilizadas em cada momento."
     },
     {
      "t": "p",
@@ -266,11 +266,15 @@ export const privacy: LegalDoc = {
    ]
   },
   {
-   "h": "11.1 Wix",
+   "h": "11.1 Hospedagem do site",
    "b": [
     {
      "t": "p",
-     "x": "Utilizado para hospedagem, infraestrutura e funcionalidades do site institucional. Dados técnicos e informações enviadas em formulários podem ser processados pela infraestrutura do fornecedor conforme a configuração do site."
+     "x": "O site institucional depende de um provedor de hospedagem e infraestrutura, que poderá variar conforme a implantação adotada. Dados técnicos de acesso e informações eventualmente enviadas ao site podem ser processados pela infraestrutura desse fornecedor, conforme a configuração vigente."
+    },
+    {
+     "t": "p",
+     "x": "Quando o site for hospedado pela Lovable, a Lovable registra estatísticas de visitação sem cookies, sem armazenar informações no dispositivo do visitante, sem manter endereços IP e sem identificar visitantes: páginas visitadas, origem da visita, país, navegador, sistema operacional, tipo de dispositivo, tempo de permanência, velocidade de carregamento, erros e cliques em botões e links. Dados detalhados são mantidos por 90 dias e resumos diários por um ano. A Lovable coleta esses dados para a BEWAY. A política de privacidade da Lovable (https://lovable.dev/privacy) explica como ela trata essas informações."
     }
    ]
   },
@@ -288,7 +292,7 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Pode atuar no fornecimento de Google Analytics, Google Tag Manager e Google Ads, conforme as configurações adotadas e as preferências de consentimento do visitante."
+     "x": "Poderá atuar no fornecimento de Google Analytics, Google Tag Manager e Google Ads, caso essas ferramentas venham a ser configuradas, conforme as configurações adotadas e as preferências de consentimento do visitante."
     }
    ]
   },
@@ -297,7 +301,7 @@ export const privacy: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Pode atuar por meio do Meta Pixel e tecnologias relacionadas à mensuração, atribuição, formação de públicos e publicidade, conforme as configurações adotadas e as preferências de consentimento do visitante."
+     "x": "Poderá atuar por meio do Meta Pixel e tecnologias relacionadas à mensuração, atribuição, formação de públicos e publicidade, caso essas ferramentas venham a ser configuradas, conforme as configurações adotadas e as preferências de consentimento do visitante."
     }
    ]
   },
@@ -671,7 +675,7 @@ export const terms: LegalDoc = {
    "b": [
     {
      "t": "p",
-     "x": "Algumas etapas da experiência podem ocorrer em plataformas de terceiros, como Wix e Hotmart. A disponibilidade e certas funcionalidades dessas plataformas dependem dos respectivos fornecedores."
+     "x": "Algumas etapas da experiência podem ocorrer em plataformas de terceiros, como provedores de hospedagem e a Hotmart. A disponibilidade e certas funcionalidades dessas plataformas dependem dos respectivos fornecedores."
     },
     {
      "t": "p",
@@ -908,4 +912,5 @@ export const support: LegalDoc = {
   }
  ]
 };
-export const termsAdaptations = ["Título generalizado para Termos de Uso", "Seção 1 e 4 generalizadas para produtos digitais, conteúdos, materiais, serviços e ofertas", "Removidos nome de produto e preço antigo das seções Preço e Arrependimento", "Inserida cláusula Natureza Empresarial dos Aconselhamentos e Alocação de Recursos após a seção 15 e renumeração"];
+export const termsAdaptations = ["Título generalizado para Termos de Uso", "Seção 1 e 4 generalizadas para produtos digitais, conteúdos, materiais, serviços e ofertas", "Removidos nome de produto e preço antigo das seções Preço e Arrependimento", "Seção 19 sem citar Wix como plataforma atual", "Inserida cláusula Natureza Empresarial dos Aconselhamentos e Alocação de Recursos após a seção 15 e renumeração"];
+export const privacyAdaptations = ["Seções 9.2 a 9.4 e 11.3 a 11.4: GA4, Tag Manager, Meta Pixel e Google Ads descritos como possíveis, não ativos", "Seção 10: preferências de cookies descritas como recurso futuro, com gestão pelo navegador", "Seções 11 e 11.1: Wix substituído por provedor de hospedagem genérico, com estatísticas da Lovable em caráter condicional"];
