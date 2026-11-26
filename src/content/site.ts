@@ -46,7 +46,7 @@ export const pillars = [
 export const updatedCopy = {
   vision: "É melhor obter sabedoria do que ouro. É melhor obter entendimento do que prata.",
   visionSource: "Provérbios 16:16",
-  contactTitle: "Todo bom conselho começa com uma conversa",
+  contactTitle: "Um conselho sábio pode mudar tudo.",
   contactDescription: "Se existe um problema, desafio ou oportunidade de crescimento a ser avaliada, entre em contato com a BEWAY.",
   footerQuote: "Bem-aventurado aquele que teme ao Senhor e anda nos seus caminhos",
   footerSource: "Salmos 128:1",
