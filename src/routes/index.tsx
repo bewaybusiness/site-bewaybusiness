@@ -48,7 +48,12 @@ function Index() {
               {site.slogan}
             </h1>
             <p className="mt-8 max-w-md text-lg leading-relaxed text-ink-muted">{site.descriptor}</p>
-            <a href="#a-beway" className="eyebrow group mt-14 inline-flex items-center gap-4 py-2">
+            <a
+              href="https://wa.me/5521979991015"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="eyebrow group mt-14 inline-flex items-center gap-4 py-2"
+            >
               <span className="h-px w-10 bg-signal" aria-hidden="true" />
               Conheça a BEWAY
               <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-1">→</span>
