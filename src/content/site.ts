@@ -6,7 +6,7 @@ export const site = {
   name: "BEWAY",
   signature: "Estratégia e Capital",
   slogan: "Direção para crescimento.",
-  descriptor: "Aconselhamento e viabilização de investimentos para crescimento empresarial.",
+  descriptor: "Aconselhamento estratégico e viabilização de investimentos para crescimento empresarial.",
   futureUrl: "https://www.bewaybusiness.com.br",
   contact: {
     whatsappDisplay: "+55 21 97999-1015",

@@ -29,9 +29,21 @@ describe("abertura (hero) BEWAY", () => {
     expect(hero).toContain("Conheça a BEWAY");
   });
 
-  it("não aplica degradê ao fundo do hero", () => {
+  it("traz o subtexto aprovado do hero", () => {
+    const siteSource = readFileSync(path.join(root, "src/content/site.ts"), "utf8");
+    expect(siteSource).toContain(
+      '"Aconselhamento estratégico e viabilização de investimentos para crescimento empresarial."',
+    );
+  });
+
+  it("aplica um véu leve no topo do hero para o menu continuar legível", () => {
+    expect(cssSource).toMatch(/\.hero::before\s*\{[^}]*linear-gradient\(to bottom/);
+    expect(cssSource).toMatch(/\.hero::before\s*\{[^}]*pointer-events:\s*none/);
+  });
+
+  it("não reaplica o degradê lateral na junção com a foto", () => {
     expect(hero).not.toMatch(/gradient/i);
     expect(cssSource).not.toMatch(/\.hero::after/);
-    expect(cssSource).not.toMatch(/linear-gradient/i);
+    expect(cssSource).not.toMatch(/linear-gradient\(to right/);
   });
 });
