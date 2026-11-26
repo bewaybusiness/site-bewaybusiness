@@ -4,7 +4,7 @@ import { Logo } from "./Logo";
 
 const nav: { href: string; label: string; external?: boolean }[] = [
   { href: "/#a-beway", label: "A BEWAY" },
-  { href: "https://wa.me/5521979991015?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20com%20a%20BEWAY.", label: "Converse com a BEWAY", external: true },
+  { href: "https://wa.me/5521979991015", label: "Converse com a BEWAY", external: true },
 ];
 
 export function Header() {
@@ -21,7 +21,7 @@ export function Header() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 text-ink-foreground transition-colors duration-300 ${
-        scrolled || open ? "border-b border-ink-border bg-ink/95 backdrop-blur" : "bg-gradient-to-b from-ink/70 to-transparent"
+        scrolled || open ? "border-b border-ink-border bg-ink/95 backdrop-blur" : "bg-transparent"
       }`}
     >
       <div className="container-site flex h-18 items-center justify-between">
