@@ -4,7 +4,7 @@ import { Logo } from "./Logo";
 
 const nav: { href: string; label: string; external?: boolean }[] = [
   { href: "/#a-beway", label: "A BEWAY" },
-  { href: "https://wa.me/5521979991015", label: "Converse com a BEWAY", external: true },
+  { href: "https://wa.me/5521979991015?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20com%20a%20BEWAY.", label: "Converse com a BEWAY", external: true },
 ];
 
 export function Header() {

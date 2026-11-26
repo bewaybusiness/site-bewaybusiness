@@ -2,4 +2,5 @@
 - [x] Atuação, indicadores, Visão, Contato e rodapé.
 - [x] Páginas de privacidade, termos e suporte com textos oficiais.
 - [x] Política e termos sem ferramentas não configuradas (GA4, Pixel, Ads, Wix).
+- [x] Hotmart/comércio eletrônico removidos; CTA WhatsApp com mensagem; título Experiência.
 - [ ] Revisão jurídica final e confirmação do titular (CNPJ, data de vigência, Hotmart) antes de publicar.

@@ -190,7 +190,7 @@ export const privacy: LegalDoc = {
     },
     {
      "t": "p",
-     "x": "O atendimento operacional ocorre em dias úteis, das 9h às 18h. Demandas relacionadas ao comércio eletrônico terão manifestação em até 5 dias, quando aplicável. Solicitações relacionadas à LGPD serão tratadas conforme os prazos legais específicos."
+     "x": "O atendimento operacional ocorre em dias úteis, das 9h às 18h. Demandas relacionadas a produtos e ofertas comerciais da BEWAY terão manifestação em até 5 dias, quando aplicável. Solicitações relacionadas à LGPD serão tratadas conforme os prazos legais específicos."
     }
    ]
   },
@@ -407,7 +407,7 @@ export const privacy: LegalDoc = {
   }
  ]
 };
-export const supportAdaptations = ["Hotmart substituída por canais da BEWAY e fornecedor de pagamentos genérico"];
+export const supportAdaptations = ["Plataforma nominal de vendas substituída por canais da BEWAY e fornecedor de pagamentos genérico"];
 export const terms: LegalDoc = {
  "title": "Termos de Uso",
  "intro": [
@@ -546,7 +546,7 @@ export const terms: LegalDoc = {
     },
     {
      "t": "p",
-     "x": "Quando aplicável ao comércio eletrônico, a manifestação da BEWAY será encaminhada em até 5 dias. O recebimento da demanda deverá ser confirmado pelo próprio canal utilizado ou por mecanismo eletrônico equivalente."
+     "x": "Quando aplicável a produtos e ofertas comerciais da BEWAY, a manifestação da BEWAY será encaminhada em até 5 dias. O recebimento da demanda deverá ser confirmado pelo próprio canal utilizado ou por mecanismo eletrônico equivalente."
     }
    ]
   },
@@ -818,7 +818,7 @@ export const support: LegalDoc = {
     },
     {
      "t": "p",
-     "x": "Para demandas relacionadas ao comércio eletrônico, a manifestação será encaminhada em até 5 dias, quando aplicável. Solicitações de privacidade e LGPD seguirão os prazos legais específicos."
+     "x": "Para demandas relacionadas a produtos e ofertas comerciais da BEWAY, a manifestação será encaminhada em até 5 dias, quando aplicável. Solicitações de privacidade e LGPD seguirão os prazos legais específicos."
     },
     {
      "t": "p",
@@ -913,5 +913,5 @@ export const support: LegalDoc = {
   }
  ]
 };
-export const termsAdaptations = ["Título generalizado para Termos de Uso", "Seção 1 e 4 generalizadas para produtos digitais, conteúdos, materiais, serviços e ofertas", "Removidos nome de produto e preço antigo das seções Preço e Arrependimento", "Hotmart substituída por fornecedor de pagamentos genérico", "Seção 19 sem citar Wix como plataforma atual", "Inserida cláusula Natureza Empresarial dos Aconselhamentos e Alocação de Recursos após a seção 15 e renumeração"];
-export const privacyAdaptations = ["Seções 9.2 a 9.4 e 11.3 a 11.4: GA4, Tag Manager, Meta Pixel e Google Ads descritos como possíveis, não ativos", "Seções 4 e 11: Hotmart substituída por fornecedores de pagamento genéricos", "Seção 10: preferências de cookies descritas como recurso futuro, com gestão pelo navegador", "Seções 11 e 11.1: Wix substituído por provedor de hospedagem genérico, com estatísticas da Lovable em caráter condicional"];
+export const termsAdaptations = ["Título generalizado para Termos de Uso", "Seção 1 e 4 generalizadas para produtos digitais, conteúdos, materiais, serviços e ofertas", "Removidos nome de produto e preço antigo das seções Preço e Arrependimento", "Plataforma nominal de vendas substituída por fornecedor de pagamentos genérico", "Seção 19 sem citar Wix como plataforma atual", "Inserida cláusula Natureza Empresarial dos Aconselhamentos e Alocação de Recursos após a seção 15 e renumeração"];
+export const privacyAdaptations = ["Seções 9.2 a 9.4 e 11.3 a 11.4: GA4, Tag Manager, Meta Pixel e Google Ads descritos como possíveis, não ativos", "Seções 4 e 11: Plataforma nominal de vendas substituída por fornecedores de pagamento genéricos", "Seção 10: preferências de cookies descritas como recurso futuro, com gestão pelo navegador", "Seções 11 e 11.1: Wix substituído por provedor de hospedagem genérico, com estatísticas da Lovable em caráter condicional"];

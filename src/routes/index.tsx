@@ -79,9 +79,9 @@ function Index() {
 
         {/* INDICADORES */}
         {shown.length > 0 && (
-          <section aria-label="Indicadores" className="border-t border-border pb-28 pt-20 md:pb-40">
+          <section aria-labelledby="experiencia-title" className="border-t border-border pb-28 pt-20 md:pb-40">
             <div className="container-site grid gap-16 md:grid-cols-12">
-              <div className="md:col-span-3" />
+              <h2 id="experiencia-title" className="eyebrow text-muted-foreground md:col-span-3">Experiência</h2>
               <dl className="grid gap-12 sm:grid-cols-3 md:col-span-9 md:gap-10">
                 {shown.map((ind) => (
                   <div key={ind.description} className="flex flex-col">
